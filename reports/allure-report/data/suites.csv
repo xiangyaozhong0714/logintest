@@ -1,0 +1,44 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+测试登录后获取角色列表
+
+Args:
+    login_success: conftest.py中定义的fixture，返回登录成功的token
+    data: 测试数据，包含查询参数、预期结果等
+","60","测试获取角色列表","test_cases","2026-01-27","failed","2026-01-27","TestGetApis","test_get_apis","",""
+"
+测试登录后获取用户列表
+
+Args:
+    login_success: conftest.py中定义的fixture，返回登录成功的token
+    data: 测试数据，包含查询参数、预期结果等
+","83","测试获取用户列表","test_cases","2026-01-27","failed","2026-01-27","TestGetApis","test_get_apis","",""
+"
+测试登录接口
+Args:
+    data: 测试数据，包含用户名、密码、期望结果等
+","55","登录功能测试111","test_cases","2026-01-27","passed","2026-01-27","TestLogin","test_login","",""
+"
+测试登录接口
+Args:
+    data: 测试数据，包含用户名、密码、期望结果等
+","54","登录功能测试111","test_cases","2026-01-27","passed","2026-01-27","TestLogin","test_login","",""
+"
+测试登录后获取设备检查计划
+
+Args:
+    login_success: conftest.py中定义的fixture，返回登录成功的token
+    data: 测试数据，包含查询参数、预期结果等
+","142","测试获取设备检查计划","test_cases","2026-01-27","failed","2026-01-27","TestGetApis","test_get_apis","",""
+"
+测试登录接口
+Args:
+    data: 测试数据，包含用户名、密码、期望结果等
+","56","登录功能测试111","test_cases","2026-01-27","passed","2026-01-27","TestLogin","test_login","",""
+"
+测试登录后获取用户列表
+
+Args:
+    login_success: conftest.py中定义的fixture，返回登录成功的token
+    data: 测试数据，包含查询参数、预期结果等
+","63","测试获取用户列表","test_cases","2026-01-27","failed","2026-01-27","TestGetApis","test_get_apis","",""

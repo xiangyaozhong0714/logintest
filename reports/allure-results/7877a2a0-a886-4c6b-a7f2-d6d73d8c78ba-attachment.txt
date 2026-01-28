@@ -1,0 +1,8 @@
+INFO     autotest:request_utils.py:46 请求方法: POST
+INFO     autotest:request_utils.py:47 请求URL: http://172.20.91.44:8085/admin-api/system/auth/login
+INFO     autotest:request_utils.py:49 请求体: {
+  "username": "",
+  "password": "Test123456"
+}
+INFO     autotest:request_utils.py:55 响应状态码: 200
+INFO     autotest:request_utils.py:57 响应内容: {"code":400,"data":null,"msg":"请求的租户标识未传递，请进行排查"}...

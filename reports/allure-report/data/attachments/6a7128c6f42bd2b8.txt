@@ -1,0 +1,15 @@
+INFO     autotest:request_utils.py:46 请求方法: POST
+INFO     autotest:request_utils.py:47 请求URL: http://172.20.91.44:8085/admin-api/system/auth/login
+INFO     autotest:request_utils.py:49 请求体: {
+  "username": "qxtestdw",
+  "password": "UkzTn2AgovNTpqUeZsVow7PnI1vX8bwNo9df6mY8EOkWfABE6qNAmz4qT/vhlN7UBOksUNn7kTAKiQBqhJGetg==",
+  "tenantName": "超级管理员",
+  "captchaVerification": "vrBnU+ZhnsZpdLmC6Xkstrp7X5BnDxLBJWlUCtgHQv2a4W8MdF7o3MYs5wout1FNOXgktBLACrCABQ6FtheBVA==",
+  "rememberMe": "true"
+}
+INFO     autotest:request_utils.py:55 响应状态码: 200
+INFO     autotest:request_utils.py:57 响应内容: {"code":400,"data":null,"msg":"请求的租户标识未传递，请进行排查"}...
+INFO     autotest:request_utils.py:46 请求方法: GET
+INFO     autotest:request_utils.py:47 请求URL: http://172.20.91.44:8085/admin-api/system/user/list
+INFO     autotest:request_utils.py:55 响应状态码: 200
+INFO     autotest:request_utils.py:57 响应内容: {"code":401,"data":null,"msg":"账号未登录"}...

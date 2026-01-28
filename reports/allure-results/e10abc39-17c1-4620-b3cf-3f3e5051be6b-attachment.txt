@@ -1,0 +1,8 @@
+2026-01-27 17:49:15 - autotest - INFO - 请求方法: POST
+2026-01-27 17:49:15 - autotest - INFO - 请求URL: http://172.20.91.44:8085/admin-api/system/auth/login
+2026-01-27 17:49:15 - autotest - INFO - 请求体: {
+  "username": "",
+  "password": "Test123456"
+}
+2026-01-27 17:49:15 - autotest - INFO - 响应状态码: 200
+2026-01-27 17:49:15 - autotest - INFO - 响应内容: {"code":400,"data":null,"msg":"请求的租户标识未传递，请进行排查"}...
